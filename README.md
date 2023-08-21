@@ -1,4 +1,4 @@
-# Application-Kasir
+# Application-cashier
 
 Database name is kasir
 
