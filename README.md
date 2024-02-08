@@ -1,16 +1,24 @@
-# Application-cashier
+# Panduan Penggunaan Application Cashier Java Netbeans
 
-Database name is kasir
+Proyek ini memerlukan langkah-langkah tertentu agar dapat dijalankan dengan benar. Berikut adalah langkah-langkah yang perlu Anda ikuti:
 
-to create table data_barang
+## Langkah 1: Unduh Database
 
-    CREATE TABLE `data_barang` (
-      `no` int(5) NOT NULL AUTO_INCREMENT,
-      `kode_barang` varchar(7) NOT NULL,
-      `nama_barang` varchar(50) NOT NULL,
-      `stok_barang` int(5) NOT NULL,
-      `harga_satuan` int(10) NOT NULL,
-      PRIMARY KEY (`no`)
-    ) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4
+Unduh file database dari https://github.com/lebefriedlich/Application-Cashier/blob/main/kasir.sql dan simpan di lokasi yang mudah diakses pada komputer Anda.
 
-to create 
+## Langkah 2: Impor Database
+
+Gunakan manajer database favorit Anda (seperti MySQL Workbench atau phpMyAdmin) untuk mengimpor database yang telah diunduh. Ikuti langkah-langkah berikut:
+
+1. Buka manajer database.
+2. Buat database baru (jika belum ada).
+3. Pilih opsi impor dan pilih file database yang diunduh.
+4. Klik "OK" untuk mengimpor struktur dan data ke database Anda.
+
+## Langkah 3: Konfigurasi Koneksi Database
+
+Buka berkas `koneksi.java` pada proyek ini dan ubah bagian berikut:
+
+Perhatikan pada baris 18: String url = "jdbc:mysql://localhost/kasir"; rubah nama **kasir** menjadi nama database yang kalian impor tadi
+
+
