@@ -21,4 +21,10 @@ Buka berkas `koneksi.java` pada proyek ini dan ubah bagian berikut:
 
 Perhatikan pada baris 18: String url = "jdbc:mysql://localhost/kasir"; rubah nama **kasir** menjadi nama database yang kalian impor tadi
 
+## Kontribusi
+Kontribusi selalu dipersilakan! Jika Anda ingin meningkatkan proyek ini, silakan buka *issue* untuk mendiskusikan perubahan yang ingin Anda usulkan atau kirimkan *pull request*.
+
+## Lisensi
+Proyek ini dilisensikan di bawah Lisensi MIT. Silakan lihat [LICENSE](LICENSE) untuk detail lebih lanjut.
+
 
